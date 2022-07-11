@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer programa en JS</title>
+</head>
+<body>
+    <p>Hola Mundo</p>
+    <script>
+        // declaracion de variable
+        var nombre = "Carlos" ;
+        var apellido = "Jaenz" ;
+        var edad = "17" ;
+        var fechaNacimiento = "08/05/2005" ;
+        var sueldo = 1000.05 ;
+        var casado = true ;
+        var hijos = null ;
+
+        // imprimir las variables en la pagina 
+        document.write("<p>Nombre: " + nombre + "</p>") ;
+        document.write("<p>Apellido: " + apellido + "</p>") ;
+        document.write("<p>Edad: " + edad + "</p>") ;
+        document.write("<p>Fecha de Nacimiento: " + fechaNacimiento + "</p>") ;
+        document.write("<p>Sueldo: " + 1000.05 + "</p>") ;
+        document.write("<p>Casado: " + casado + "</p>") ;
+        document.write("<p>Hijos: " + null + "</p>") ;
+
+        //validar wl valor de casado
+        if(casado){
+            document.write( "<p>Esta Casado</p>" );
+        }else{
+            document.write( "<p>No esta Casado</p>" )
+        }
+    </script>
+</body>
+</html>
